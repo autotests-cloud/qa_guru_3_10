@@ -18,6 +18,8 @@ public class GoogleTests {
         String searchSite = ConfigHelper.getSearchSite();
         String searchItem = ConfigHelper.getSearchItem();
         String searchResult = ConfigHelper.getSearchResult();
+        String password = ConfigHelper.getPassword();
+        System.out.println(password);
 
         open(searchSite);
 

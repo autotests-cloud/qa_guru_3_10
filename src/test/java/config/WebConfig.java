@@ -8,6 +8,9 @@ import org.aeonbits.owner.Config;
         "classpath:${environment}.properties"
 })
 public interface WebConfig extends Config {
+    @Key("password")
+    String searchPassword();
+
     @Key("search.site")
     String searchSite();
 

@@ -4,6 +4,10 @@ import org.aeonbits.owner.ConfigFactory;
 
 public class ConfigHelper {
 
+    public static String getPassword() {
+        return getConfig().searchPassword();
+    }
+
     public static String getSearchSite() {
         return getConfig().searchSite();
     }
