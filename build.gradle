@@ -51,8 +51,3 @@ tasks.withType(Test) {
 test {
     useJUnitPlatform()
 }
-
-task web(type: Test) {
-    useJUnitPlatform {
-    }
-}

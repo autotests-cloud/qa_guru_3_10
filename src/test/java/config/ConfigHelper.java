@@ -16,6 +16,10 @@ public class ConfigHelper {
         return getConfig().searchResult();
     }
 
+    public static String getWebdriverRemote() {
+        return getConfig().webdriverRemote();
+    }
+
     private static WebConfig getConfig() {
         return ConfigFactory.newInstance().create(WebConfig.class, System.getProperties());
     }
